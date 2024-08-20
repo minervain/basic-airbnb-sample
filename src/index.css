@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css veya App.css gibi bir dosyada */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kaushan+Script&family=Noto+Sans:wght@500&display=swap');
+
+
+
+.font {
+
+  font-family: "Kaushan Script", cursive;
+  font-weight: 800;
+  font-size: 2rem;
+  font-style: normal;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kaushan+Script&family=Noto+Sans:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.font1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+
+}
+
+.h1 {
+
+  flex: 1;
+
+}
+
+.h2 {
+  flex: -999;
+}
+
+.renk{
+  color: #1BBBB1;
+}
+.renk2{
+  color: #1BBBB1;
+  font-size: large ;
+}
